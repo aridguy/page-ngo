@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,67 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-grey-light {
+  background-color: rgb(214, 212, 212);
+}
+
+/* custome brand colors */
+.purple {
+  color: purple;
+}
+.black {
+  color: rgb(0, 0, 0);
+}
+.gold {
+  color: gold;
+}
+
+/* home page */
+/* hero background */
+
+.hero-bg {
+  background-image: url(./Assets/beth-tate-188125.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 30em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* place two styles */
+.box-1 {
+  background-color: rgba(226, 222, 222, 0.164);
+  padding: 3em;
+  height: 30em;
+  border-radius: 14px;
+  /* box-shadow: 1px 2px 9px rgb(136 124 124 / 41%) */
+  
+}
+.box-1:hover {
+  background-color: rgba(255, 217, 0, 0.137)
+ 
+}
+
+/* past events */
+
+
+@media only screen and (max-width: 600px) {
+  small {
+    font-size: 24px;
+  }
+  .box-1 {
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 3em;
+    height: 34em;
   }
 }
