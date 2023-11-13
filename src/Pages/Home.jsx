@@ -3,6 +3,9 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 // import Events from "../Components/Events";
 import Teams from "../Components/Teams";
+// import Contact from "./Contact";
+import Contacts from "../Components/Contacts";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -21,8 +24,9 @@ const Home = () => {
                   There is one relation above all Relation of Humanity
                 </span>{" "}
                 <br />
-                <button className="mt-5 text-uppercase btn btn-purple text-white btn-lg active waves-effect">
-                  Explore
+                <button className="mt-5 text-uppercase btn btn-purple text-white btn-lg  waves-effect">
+                  <span className="text-danger fas fa-heart"></span> &nbsp;
+                  Donate
                 </button>
               </div>
             </div>
@@ -150,12 +154,21 @@ const Home = () => {
         </div>
       }
 
-    
-      <Teams />
-
-
-
-
+      {
+        <div>
+          <Teams />
+        </div>
+      }
+      {
+        <div>
+          <Contacts />
+        </div>
+      }
+      {
+        <div>
+          <Footer />
+        </div>
+      }
     </div>
   );
 };
