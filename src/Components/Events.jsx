@@ -63,7 +63,7 @@ const Events = () => {
                   <img src={Pics6} alt="pics 1" />
                   <p className="legend fs-3">THE PALLIATIVE FOR WIDOWS</p>
                   <span>
-                   
+                  
                   </span>
                 </div>
               </Carousel>

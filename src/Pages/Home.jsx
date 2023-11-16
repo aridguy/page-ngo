@@ -7,6 +7,7 @@ import Teams from "../Components/Teams";
 import Contacts from "../Components/Contacts";
 import Footer from "../Components/Footer";
 import Events from "../Components/Events";
+import Socials from "../Components/Socials";
 
 const Home = () => {
   return (
@@ -176,6 +177,9 @@ const Home = () => {
           <Footer />
         </div>
       }
+
+      <Socials />
+      
     </div>
   );
 };

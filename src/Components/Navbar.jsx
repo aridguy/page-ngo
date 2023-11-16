@@ -1,9 +1,14 @@
 import React from "react";
 import Logo from '../Assets/Logo1.png'
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate()
+  const gotoWhatWeDo =() =>{
+    navigate("/whatwedo")
+  }
   return (
-    <nav className="navbar p-4 navbar-expand-lg navbar-light bg-white shadow-5-strong">
+    <nav className="navbar p-4 navbar-expand-lg navbar-light bg-white">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img width='40' src={Logo} alt="logo" />
@@ -21,24 +26,24 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="/">
+            <span className="nav-link active" aria-current="page" href="/">
               Home
-            </a>
-            <a className="nav-link" href="/">
+            </span>
+            <span className="nav-link cursor" >
               About
-            </a>
-            <a className="nav-link" href="/">
+            </span>
+            <span className="nav-link" href="/">
               Gallery
-            </a>
-            <a href="/" className="nav-link ">
+            </span>
+            <span onClick={gotoWhatWeDo} className="nav-link cursor">
               What We Do
-            </a>
-            <a href="/" className="nav-link ">
+            </span>
+            <span className="nav-link cursor">
               Contact
-            </a>
-            <a href="/" className="nav-link ">
+            </span>
+            <span className="nav-link cursor">
              Volunteer
-            </a>
+            </span>
           
           </div>
         </div>
