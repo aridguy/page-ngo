@@ -4,9 +4,9 @@ import './App.css';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
-import WhatWeDo from './Pages/WhatWeDo';
 import Volunteer from './Pages/Volunteer';
 import Gallery from './Pages/Gallery';
+import WhoWeAre from './Pages/WhoWeAre';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="whatwedo" element={<WhatWeDo />} />
+        <Route path="whoweare" element={<WhoWeAre />} />
         <Route path="volunteer" element={<Volunteer />} />
         <Route path="gallery" element={<Gallery />} />
     </Routes>

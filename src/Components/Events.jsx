@@ -16,6 +16,15 @@ const Events = () => {
           <div className="row">
             <div className="col-md-1"></div>
             <div className="col-md-10">
+              <div>
+                <p className="fs-1 black fw-bold">SOME PAST EVENTS</p>
+              </div>
+            </div>
+            <div className="col-md-1"></div>
+          </div>
+          <div className="row">
+            <div className="col-md-1"></div>
+            <div className="col-md-10">
               <Carousel
                 axis="horizontal"
                 infiniteLoop={true}
@@ -27,44 +36,32 @@ const Events = () => {
                 <div>
                   <img src={Pics1} alt="pics 1" />
                   <p className="legend fs-3">FOUNDATON PALLIATIVE PROGRAM</p>
-                  <span>
-                 
-                  </span>
+                  <span></span>
                 </div>
                 <div>
                   <img src={Pics2} alt="pics 1" />
                   <p className="legend fs-3">FOUNDATON PALLIATIVE</p>
-                  <span>
-                  
-                  </span>
+                  <span></span>
                 </div>
                 <div>
                   <img src={Pics3} alt="pics 1" />
                   <p className="legend fs-3">OFFICAL LAUNCHING</p>
-                  <span>
-                   
-                  </span>
+                  <span></span>
                 </div>
                 <div>
                   <img src={Pics4} alt="pics 1" />
                   <p className="legend fs-3">OFFICAL LAUNCHING</p>
-                  <span>
-                    
-                  </span>
+                  <span></span>
                 </div>
                 <div>
                   <img src={Pics5} alt="pics 1" />
                   <p className="legend fs-3"> FOUNDATION SUPPORT</p>
-                  <span>
-                  
-                  </span>
+                  <span></span>
                 </div>
                 <div>
                   <img src={Pics6} alt="pics 1" />
                   <p className="legend fs-3">THE PALLIATIVE FOR WIDOWS</p>
-                  <span>
-                  
-                  </span>
+                  <span></span>
                 </div>
               </Carousel>
             </div>

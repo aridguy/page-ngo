@@ -8,7 +8,8 @@ import Contacts from "../Components/Contacts";
 import Footer from "../Components/Footer";
 import Events from "../Components/Events";
 import Socials from "../Components/Socials";
-import WhatWeDo from "./WhatWeDo";
+
+import Gallery from "./Gallery";
 
 const Home = () => {
   return (
@@ -165,7 +166,7 @@ const Home = () => {
 
       {
         <div>
-        <WhatWeDo />
+          <Gallery />
         </div>
       }
 
@@ -186,7 +187,6 @@ const Home = () => {
       }
 
       <Socials />
-
     </div>
   );
 };
