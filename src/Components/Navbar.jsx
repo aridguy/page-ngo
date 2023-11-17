@@ -4,9 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate()
-  const gotoWhatWeDo =() =>{
-    navigate("/whatwedo")
+  const gotoAbout =() =>{
+    navigate("/about")
   }
+  
   return (
     <nav className="navbar p-4 navbar-expand-lg navbar-light bg-white">
       <div className="container-fluid">
@@ -26,18 +27,16 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <span className="nav-link active" aria-current="page" href="/">
+            <span className="nav-link active cursor" aria-current="page" href="/">
               Home
             </span>
-            <span className="nav-link cursor" >
+            <span onClick={gotoAbout} className="nav-link cursor" >
               About
             </span>
-            <span className="nav-link" href="/">
+            <span className="nav-link cursor" href="/">
               Gallery
             </span>
-            <span onClick={gotoWhatWeDo} className="nav-link cursor">
-              What We Do
-            </span>
+            
             <span className="nav-link cursor">
               Contact
             </span>
