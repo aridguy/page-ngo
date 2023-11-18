@@ -8,6 +8,12 @@ import Contacts from "../Components/Contacts";
 import Footer from "../Components/Footer";
 import Events from "../Components/Events";
 import Socials from "../Components/Socials";
+import Training from "../Assets/About/training.png"
+import Trainings from "../Assets/About/vocational.png"
+import Mentoring from "../Assets/About/help.png"
+import Education from "../Assets/About/educations.png"
+import Wedo from "../Assets/gallery/gallery/wedo.jpeg";
+
 
 import Gallery from "./Gallery";
 
@@ -161,6 +167,88 @@ const Home = () => {
       {
         <div>
           <Events />
+        </div>
+      }
+
+      {
+        <div className="mt-5 pt-5 bg-light pb-5 ">
+        <section className="bg-grey wedo mt-5">
+        <div className="container mt-5">
+          <div className="row">
+            <div className="col-md-6">
+              <div>
+                <img src={Wedo} alt="what we do" />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="row mt-3">
+                <div className="col-md-6">
+                  <div className="abt-cards">
+                    <div className="d-flex gap-2">
+                      <img width="20%" src={Mentoring} alt="vision" />{" "}
+                      <p className="fs-4 black fw-bolder">Mentoring</p>
+                    </div>
+                    <div className="mt-3">
+                      <i>
+                        {" "}
+                        Our Community Ambassadors represent the Foundation in
+                        their various communities
+                      </i>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="abt-cards">
+                    <div className="d-flex gap-2">
+                      <img width="20%" src={Training} alt="vision" />{" "}
+                      <p className="fs-4 black fw-bolder">Leadership Training</p>
+                    </div>
+                    <div className="mt-3">
+                      <i>
+                        {" "}
+                        Our Community Ambassadors represent the Foundation in
+                        their various communities
+                      </i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="row mt-5">
+                <div className="col-md-6">
+                  <div className="abt-cards">
+                    <div className="d-flex gap-2">
+                      <img width="20%" src={Education} alt="vision" />{" "}
+                      <p className="fs-4 black fw-bolder">Educational Support</p>
+                    </div>
+                    <div className="mt-3">
+                      <i>
+                        {" "}
+                        Our Community Ambassadors represent the Foundation in
+                        their various communities
+                      </i>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="abt-cards">
+                    <div className="d-flex gap-2">
+                      <img width="20%" src={Trainings} alt="vision" />{" "}
+                      <p className="fs-4 black fw-bolder">Training</p>
+                    </div>
+                    <div className="mt-3">
+                      <i>
+                        {" "}
+                        Our Community Ambassadors represent the Foundation in
+                        their various communities
+                      </i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         </div>
       }
 
