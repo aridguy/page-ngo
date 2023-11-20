@@ -21,6 +21,17 @@ body {
 .gold {
   color: gold;
 }
+.extrass{
+  background-image: url(./Assets/extr.jpg);
+  height: 22em;
+  background-size: cover;
+  justify-content: center;
+  padding-top: 7em;
+  /* padding-bottom: 5em; */
+  /* filter: brightness(8%); */
+
+}
+
 
 /* home page */
 /* hero background */
@@ -91,6 +102,10 @@ body {
   width: 20%;
 }
 
+.border-left{
+  border-left: 1px solid gold;
+}
+
 @media only screen and (max-width: 600px) {
   small {
     font-size: 24px;
@@ -99,6 +114,10 @@ body {
     background-color: rgba(0, 0, 0, 0.137);
     padding: 3em;
     height: 34em;
+  }
+  .extrass{
+   display: none;
+  
   }
 }
 
@@ -165,9 +184,9 @@ body {
 /* media query */
 
 @media only screen and (max-width: 600px)  {
-  .socialbox{
+  /* .socialbox{
       display: none;
-  }
+  } */
   .abt-img{
     width: 100%;
   }

@@ -1,6 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const gotoAbout = () => {
+    navigate("/about");
+  };
+  // const gotoGallery = () => {
+  //   navigate("/gallery");
+  // };
+  const gotoContact = () => {
+    navigate("/contact");
+  };
+  const gotoVolunteer = () => {
+    navigate("/volunteer");
+  };
+  const gotoHome = () => {
+    navigate("/");
+  };
   return (
     <div>
       <footer className="text-center text-lg-start bg-white text-muted">
@@ -50,45 +67,25 @@ const Footer = () => {
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">General</h6>
                 <p>
-                  <a href="#!" className="text-reset">
-                    privacy and policy
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Terms and conditions
-                  </a>
+                  Copyright © 2022 - Agnes Abiona Foundation - All rights
+                  reserved. Powered by codeTECHS
                 </p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Pages</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    About
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Contact
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Donate
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Volunteer
-                  </a>
-                </p>
+                <p className="cursor" onClick={gotoHome}>Home</p>
+                <p className="cursor" onClick={gotoAbout}>About</p>
+                <p className="cursor" onClick={gotoContact}>Contact</p>
+                <p className="cursor" onClick={gotoContact}>Donate</p>
+                <p className="cursor" onClick={gotoVolunteer}>Volunteer</p>
               </div>
 
               <div className="col-md-5 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <i className="fas fa-home me-3 text-secondary"></i> 5 Adeyemi Alao
+                  <i className="fas fa-home me-3 text-secondary"></i> 5 Adeyemi
+                  Alao
                   <i className="me-3">Street, Community Oke-Ira, Ogba Lagos</i>
                 </p>
                 <p>
@@ -96,10 +93,12 @@ const Footer = () => {
                   agnesabionafoundation@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone me-3 text-secondary"></i> +2348063306463
+                  <i className="fas fa-phone me-3 text-secondary"></i>{" "}
+                  +2348063306463
                 </p>
                 <p>
-                  <i className="fas fa-print me-3 text-secondary"></i> +2348103221622
+                  <i className="fas fa-print me-3 text-secondary"></i>{" "}
+                  +2348103221622
                 </p>
               </div>
             </div>

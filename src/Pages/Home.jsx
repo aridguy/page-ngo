@@ -8,12 +8,11 @@ import Contacts from "../Components/Contacts";
 import Footer from "../Components/Footer";
 import Events from "../Components/Events";
 import Socials from "../Components/Socials";
-import Training from "../Assets/About/training.png"
-import Trainings from "../Assets/About/vocational.png"
-import Mentoring from "../Assets/About/help.png"
-import Education from "../Assets/About/educations.png"
+import Training from "../Assets/About/training.png";
+import Trainings from "../Assets/About/vocational.png";
+import Mentoring from "../Assets/About/help.png";
+import Education from "../Assets/About/educations.png";
 import Wedo from "../Assets/gallery/gallery/wedo.jpeg";
-
 
 import Gallery from "./Gallery";
 
@@ -172,83 +171,99 @@ const Home = () => {
 
       {
         <div className="mt-5 pt-5 bg-light pb-5 ">
-        <section className="bg-grey wedo mt-5">
-        <div className="container mt-5">
-          <div className="row">
-            <div className="col-md-6">
-              <div>
-                <img src={Wedo} alt="what we do" />
+          <section className="bg-grey wedo mt-5">
+            <div className="container mt-5">
+              <div className="row">
+                <div className="col-md-12">
+                  <p className="fw-bold fs-2">What We Do</p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-6">
+                  <div>
+                    <img src={Wedo} alt="what we do" />
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="row mt-3">
+                    <div className="col-md-6">
+                      <div className="abt-cards">
+                        <div className="d-flex gap-2">
+                          <img width="20%" src={Mentoring} alt="vision" />{" "}
+                          <p className="fs-4 black fw-bolder">Mentoring</p>
+                        </div>
+                        <div className="mt-3">
+                          <i>
+                            {" "}
+                            As girls navigate adolescent stage, they face
+                            challenge of moving through physical, psychological,
+                            sexual, and emotional development with a healthy
+                            sense of self intact
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="abt-cards">
+                        <div className="d-flex gap-2">
+                          <img width="20%" src={Training} alt="vision" />{" "}
+                          <p className="fs-4 black fw-bolder">
+                            Leadership Training
+                          </p>
+                        </div>
+                        <div className="mt-3">
+                          <i>
+                            {" "}
+                            AAF recongnises the importance of providing girls
+                            and young women skills and confidence to become
+                            leaders in their societies
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row mt-5">
+                    <div className="col-md-6">
+                      <div className="abt-cards">
+                        <div className="d-flex gap-2">
+                          <img width="20%" src={Education} alt="vision" />{" "}
+                          <p className="fs-4 black fw-bolder">
+                            Educational Support
+                          </p>
+                        </div>
+                        <div className="mt-3">
+                          <i>
+                            {" "}
+                            AAF is guided by the principle that education is
+                            basic human right and all children must have access
+                            and also believe that it is one of the veritable
+                            empowerment tools against poverty.
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="abt-cards">
+                        <div className="d-flex gap-2">
+                          <img width="20%" src={Trainings} alt="vision" />{" "}
+                          <p className="fs-4 black fw-bolder">Training</p>
+                        </div>
+                        <div className="mt-3">
+                          <i>
+                            {" "}
+                            One of the focal points of AAF is to provide support
+                            through vocational skills acquisition to indigent
+                            girls and young women who are not interested in
+                            pursuing formal education
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="row mt-3">
-                <div className="col-md-6">
-                  <div className="abt-cards">
-                    <div className="d-flex gap-2">
-                      <img width="20%" src={Mentoring} alt="vision" />{" "}
-                      <p className="fs-4 black fw-bolder">Mentoring</p>
-                    </div>
-                    <div className="mt-3">
-                      <i>
-                        {" "}
-                        Our Community Ambassadors represent the Foundation in
-                        their various communities
-                      </i>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="abt-cards">
-                    <div className="d-flex gap-2">
-                      <img width="20%" src={Training} alt="vision" />{" "}
-                      <p className="fs-4 black fw-bolder">Leadership Training</p>
-                    </div>
-                    <div className="mt-3">
-                      <i>
-                        {" "}
-                        Our Community Ambassadors represent the Foundation in
-                        their various communities
-                      </i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row mt-5">
-                <div className="col-md-6">
-                  <div className="abt-cards">
-                    <div className="d-flex gap-2">
-                      <img width="20%" src={Education} alt="vision" />{" "}
-                      <p className="fs-4 black fw-bolder">Educational Support</p>
-                    </div>
-                    <div className="mt-3">
-                      <i>
-                        {" "}
-                        Our Community Ambassadors represent the Foundation in
-                        their various communities
-                      </i>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="abt-cards">
-                    <div className="d-flex gap-2">
-                      <img width="20%" src={Trainings} alt="vision" />{" "}
-                      <p className="fs-4 black fw-bolder">Training</p>
-                    </div>
-                    <div className="mt-3">
-                      <i>
-                        {" "}
-                        Our Community Ambassadors represent the Foundation in
-                        their various communities
-                      </i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
         </div>
       }
 
@@ -263,6 +278,74 @@ const Home = () => {
           <Teams />
         </div>
       }
+
+      <section className=" pb-5 extrass">
+        <div className="container">
+          <div className="row border-row">
+            <div className="col-md-3 border-left">
+              <div>
+                <div>
+                  <small className="text-white fs-3 fw-bold">
+                    Volunteer With Us
+                  </small>
+                </div>
+                <div>
+                  <span className="text-white">
+                    We rely on our volunteers and interns to help make our goals
+                    a reality.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 border-left">
+              <div>
+                <div>
+                  <small className="text-white fs-3 fw-bold ">
+                    Corporate Support
+                  </small>
+                </div>
+                <div>
+                  <span className="text-white">
+                    Our programs depend on independent support and generosity of
+                    Corporations.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 border-left">
+              <div>
+                <div>
+                  <small className="text-white fs-3 fw-bold">
+                    Donate Products
+                  </small>
+                </div>
+                <div>
+                  <span className="text-white">
+                    We seek product donations from healthcare institutions,
+                    individuals and corporations.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 border-left">
+              <div>
+                <div>
+                  <small className="text-white fs-3 fw-bold">
+                    Fundraise For Us
+                  </small>
+                </div>
+                <div>
+                  <span className="text-white">
+                    You can fundraise for all the programs or any of the
+                    programs that interest you.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {
         <div>
           <Contacts />
