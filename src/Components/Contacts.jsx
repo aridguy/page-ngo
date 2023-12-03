@@ -43,7 +43,7 @@ const Contacts = () => {
                     <iframe
                       title="AGNES ABIONA FOUNDATION"
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7925.99618849191!2d3.3492800000000003!3d6.647156000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93f0ab57faff%3A0x8728d5c569c83028!2sAGNES%20ABIONA%20FOUNDATION!5e0!3m2!1sen!2sng!4v1699879379380!5m2!1sen!2sng"
-                      width="600"
+                      width="100%"
                       height="450"
                       allowFullScreen=""
                       loading="lazy"

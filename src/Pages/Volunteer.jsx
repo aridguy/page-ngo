@@ -28,6 +28,11 @@ const Volunteer = () => {
 
       <section className="vol-sec mt-5">
         <div className="container">
+          <div className="row">
+            <div>
+              <span>Be a Volunteer</span>
+            </div>
+          </div>
           <form>
             <div className="row">
               <div className="col-md-4">
@@ -238,7 +243,9 @@ const Volunteer = () => {
                       organization (AAF) on request
                     </small>
                   </div>
-                  <button className="mt-5 form-control btn btn-info">Submit Application</button>
+                  <button className="mt-5 form-control btn btn-warning">
+                    Submit Application
+                  </button>
                 </div>
               </div>
             </div>
