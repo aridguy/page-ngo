@@ -56,7 +56,7 @@ const Navbar = () => {
             <span onClick={gotoVolunteer} className="nav-link cursor">
               Volunteer
             </span>
-            <span className="nav-link cursor">
+            <span onClick={gotoVolunteer} className="nav-link cursor">
               Support us
             </span>
           </div>

@@ -14,7 +14,7 @@ import Mentoring from "../Assets/About/help.png";
 import Education from "../Assets/About/educations.png";
 import Wedo from "../Assets/gallery/gallery/wedo.jpeg";
 
-import Gallery from "./Gallery";
+// import Gallery from "./Gallery";
 
 const Home = () => {
   return (
@@ -267,11 +267,7 @@ const Home = () => {
         </div>
       }
 
-      {
-        <div>
-          <Gallery />
-        </div>
-      }
+     
 
       {
         <div>

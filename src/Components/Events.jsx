@@ -35,22 +35,22 @@ const Events = () => {
               >
                 <div>
                   <img src={Pics1} alt="pics 1" />
-                  <p className="legend fs-3">FOUNDATON PALLIATIVE PROGRAM</p>
+                  <p className="legend fs-3">FOUNDATION PALLIATIVE PROGRAM</p>
                   <span></span>
                 </div>
                 <div>
                   <img src={Pics2} alt="pics 1" />
-                  <p className="legend fs-3">FOUNDATON PALLIATIVE</p>
+                  <p className="legend fs-3">FOUNDATION PALLIATIVE</p>
                   <span></span>
                 </div>
                 <div>
                   <img src={Pics3} alt="pics 1" />
-                  <p className="legend fs-3">OFFICAL LAUNCHING</p>
+                  <p className="legend fs-3">OFFICIAL LAUNCHING</p>
                   <span></span>
                 </div>
                 <div>
                   <img src={Pics4} alt="pics 1" />
-                  <p className="legend fs-3">OFFICAL LAUNCHING</p>
+                  <p className="legend fs-3">OFFICIAL LAUNCHING</p>
                   <span></span>
                 </div>
                 <div>
