@@ -6,20 +6,6 @@ const WhoWeAre = () => {
   return (
     <div>
       <div>
-        <section className="mt-4">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 text-center">
-                <p className="fs-2">What We Do</p>
-                <small>
-                  Agnes Abiona Foundation is all about giving to help young and
-                  elderly womenin the society
-                </small>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="mt-5">
           <div className="container">
             <div className="row">

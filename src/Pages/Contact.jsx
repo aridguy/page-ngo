@@ -46,6 +46,7 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
+      
       <section className="contact-address-area">
         <div className="container">
           <div className="sec-title-style1 text-center max-width">
@@ -62,7 +63,7 @@ const Contact = () => {
             <div className="bottom-text">
               <p>
                 Agnes Abiona Foundation is has been able to support over 3k Plus
-                Woman which includes Adults, YOund Women and Widows in different
+                Woman which includes Adults, Young Women and Widows in different
                 areas.
               </p>
             </div>
