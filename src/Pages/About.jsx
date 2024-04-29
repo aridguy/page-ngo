@@ -20,7 +20,7 @@ const About = () => {
             <div className="">
               <h2 className="text-white ">
                 ABOUT AGNES ABIONA
-                <strong className="fw-bolder gold"> FOUNDATION</strong>
+                <strong className="fw-bolder golden"> FOUNDATION</strong>
               </h2>
             </div>
           </div>
@@ -43,16 +43,16 @@ const About = () => {
               </div>
               <div className="col-md-6">
                 <div>
-                  <p className="fs-1 black fw-bold gold">About Us</p>
+                  <p className="fs-1 black fw-bold golden">About Us</p>
                 </div>
                 <div>
-                  <h1 className="fw-bold black">
+                  <h1 className="fw-bold golden">
                     WHY EMPOWERMENT OF GIRLS AND YOUNG WOMEN?
                   </h1>
                 </div>
                 <div>
                   <p>
-                    AGNES ABIONA FOUNDATION is a registered non-governmental
+                    <b className="purple">AGNES ABIONA FOUNDATION</b> is a registered non-governmental
                     non-profit charitable organization based in Nigeria that
                     provide aid for underprivileged girls and young women
                     through development of empowerment program in order to

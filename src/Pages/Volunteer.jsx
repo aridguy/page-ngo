@@ -30,7 +30,7 @@ const Volunteer = () => {
         <div className="container">
           <div className="row">
             <div>
-              <span>Be a Volunteer</span>
+              <span className="golden bolder">Be a Volunteer</span>
             </div>
           </div>
           <form>
@@ -118,7 +118,7 @@ const Volunteer = () => {
               <div className="col-md-4">
                 <div>
                   <small>
-                    Equal<b className="text-red red">Opportunities</b>
+                    Equal<b className="text-red golden">Opportunities</b>
                   </small>{" "}
                   <br />
                   <small>
@@ -134,7 +134,7 @@ const Volunteer = () => {
                   <br />
                   <small>
                     Disclosure
-                    <b className="text-red red">ofCriminalBackground</b>
+                    <b className="text-red golden">ofCriminalBackground</b>
                   </small>{" "}
                   <br />
                   <small>
@@ -159,7 +159,7 @@ const Volunteer = () => {
                   </div>
                   <small>
                     Your
-                    <b className="text-red red">Skills and interests</b>
+                    <b className="text-red golden">Skills and interests</b>
                   </small>{" "}
                   <br />
                   <small>
@@ -202,7 +202,7 @@ const Volunteer = () => {
                 </div>
                 <div className="mt-2 mb-3">
                   <small className="black fs-6">
-                    Your <b className="red">Documents</b>
+                    Your <b className="golden">Documents</b>
                   </small>{" "}
                   <br />
                   <small>Upload CV</small>

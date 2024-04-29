@@ -27,14 +27,14 @@ const Home = () => {
               <div className="">
                 <h2 className="text-white ">
                   AGNES ABIONA{" "}
-                  <strong className="fw-bolder gold">FOUNDATION</strong>
+                  <strong className="fw-bolder golden">FOUNDATION</strong>
                 </h2>
                 <span className="text-white">
                   There is one relation above all Relation of Humanity
                 </span>{" "}
                 <br />
                 <button className="mt-5 text-uppercase btn btn-purple text-white btn-lg  waves-effect">
-                  <span className="text-danger fas fa-heart"></span> &nbsp;
+                  <span className="text-danger fas fa-heart purple"></span> &nbsp;
                   Donate
                 </button>
               </div>
