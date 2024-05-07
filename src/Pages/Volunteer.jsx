@@ -35,7 +35,7 @@ const Volunteer = () => {
           </div>
           <form>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-6">
                 <div className="mt-2 mb-3">
                   <input
                     type="text"
@@ -115,66 +115,8 @@ const Volunteer = () => {
                   />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div>
-                  <small>
-                    Equal<b className="text-red golden">Opportunities</b>
-                  </small>{" "}
-                  <br />
-                  <small>
-                    Help Bristol’s Homelessis committed to equal opportunities
-                    and all volunteer recruitment decisions will be based on
-                    merit, suitabilityfortheroleandexperience.All volunteer
-                    recruitment decisions will not be influenced by race,
-                    colour, nationality, religion, sex, marital status, family
-                    status, sexualorientation, disability, age. Help Bristol’s
-                    Homeless fully endorses a working environment free
-                    fromdiscriminationandharassment.
-                  </small>
-                  <br />
-                  <small>
-                    Disclosure
-                    <b className="text-red golden">ofCriminalBackground</b>
-                  </small>{" "}
-                  <br />
-                  <small>
-                    Do you have any criminal prosecutions pending (excluding
-                    minor motoring offences e.g. speeding)? Have you ever been
-                    convicted of any criminal offences which are not yet spent
-                    under The Rehabilitation of Offenders Act 1974 or The Re
-                    habilitation of Offenders(NI) Order 1978. Please notethat
-                    any ex-offenders of such convictions will be considered on
-                    an individual basis and the natureand potential relevance of
-                    the offence to the role being applied for will be taken into
-                    account in the recruitment decision.
-                  </small>{" "}
-                  <br />
-                  <div className="mt-2 mb-3">
-                    <input
-                      type="text"
-                      name="full name"
-                      className="form-control fmc"
-                      placeholder="Have you ever been convicted in the last 5 years?"
-                    />
-                  </div>
-                  <small>
-                    Your
-                    <b className="text-red golden">Skills and interests</b>
-                  </small>{" "}
-                  <br />
-                  <small>
-                    Help Bristol’s Homelessis committed to equal opportunities
-                    and all volunteer recruitment decisions will be based on
-                    merit, suitabilityfortheroleandexperience.All volunteer
-                    recruitment decisions will not be influenced by race,
-                    colour, nationality, religion, sex, marital status, family
-                    status, sexualorientation, disability, age. Help Bristol’s
-                    Homeless fully endorses a working environment free
-                    fromdiscriminationandharassment.
-                  </small>
-                </div>
-              </div>
-              <div className="col-md-4">
+              
+              <div className="col-md-6">
                 <div className="mt-2 mb-3">
                   <input
                     type="text"

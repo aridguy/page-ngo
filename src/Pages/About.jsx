@@ -8,7 +8,6 @@ import Mission from "../Assets/About/mission.png";
 import Board from "../Assets/About/board.png";
 import Community from "../Assets/About/community.png";
 
-
 const About = () => {
   return (
     <div>
@@ -52,11 +51,23 @@ const About = () => {
                 </div>
                 <div>
                   <p>
-                    <b className="purple">AGNES ABIONA FOUNDATION</b> is a registered non-governmental
-                    non-profit charitable organization based in Nigeria that
-                    provide aid for underprivileged girls and young women
-                    through development of empowerment program in order to
-                    fulfil their God given potential.
+                    <b className="purple">Agnes Abiona Foundation (AAF)</b> is a registered
+                    non-governmental, non-profit charitable organization based
+                    in Nigeria that provides aid for underprivileged girls and
+                    young women through the development of empowerment programs
+                    in order to fulfill their God-given potential. In Nigeria,
+                    the United Nations posits that women and girls make up more
+                    than half of the population but still do not have sufficient
+                    access to, nor opportunities to realize their full potential
+                    as agents of change who can provide solutions to most of the
+                    country’s most pressing issues. In a bid to address the
+                    empowerment of poor resource and underprivileged girls and
+                    young women, Agnes Abiona Foundation has broken down the
+                    resources needed for empowerment into the following
+                    categories: <br />
+                    • Training: vocational training and skills development <br />
+                    • Financial assistance & grants <br />
+                    • Networking and mentoring opportunities <br />
                   </p>
                   <p>
                     In Nigeria, the United Nations posits thatwomen and girls
@@ -179,8 +190,6 @@ const About = () => {
           </div>
         </section>
       }
-
-      
 
       <Footer />
     </div>
