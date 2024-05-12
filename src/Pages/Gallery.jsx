@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 
 const Gallery = () => {
   return (
     <div>
+    <Navbar />
     
       <div>
         <section className="mt-4">
@@ -267,6 +270,7 @@ const Gallery = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 };

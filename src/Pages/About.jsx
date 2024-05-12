@@ -51,35 +51,26 @@ const About = () => {
                 </div>
                 <div>
                   <p>
-                    <b className="purple">Agnes Abiona Foundation (AAF)</b> is a registered
-                    non-governmental, non-profit charitable organization based
-                    in Nigeria that provides aid for underprivileged girls and
-                    young women through the development of empowerment programs
-                    in order to fulfill their God-given potential. In Nigeria,
-                    the United Nations posits that women and girls make up more
-                    than half of the population but still do not have sufficient
-                    access to, nor opportunities to realize their full potential
-                    as agents of change who can provide solutions to most of the
-                    country’s most pressing issues. In a bid to address the
-                    empowerment of poor resource and underprivileged girls and
-                    young women, Agnes Abiona Foundation has broken down the
-                    resources needed for empowerment into the following
-                    categories: <br />
-                    • Training: vocational training and skills development <br />
+                    <b className="purple">Agnes Abiona Foundation (AAF)</b> is a
+                    registered non-governmental, non-profit charitable
+                    organization based in Nigeria that provides aid for
+                    underprivileged girls and young women through the
+                    development of empowerment programs in order to fulfill
+                    their God-given potential. In Nigeria, the United Nations
+                    posits that women and girls make up more than half of the
+                    population but still do not have sufficient access to, nor
+                    opportunities to realize their full potential as agents of
+                    change who can provide solutions to most of the country’s
+                    most pressing issues. In a bid to address the empowerment of
+                    poor resource and underprivileged girls and young women,
+                    Agnes Abiona Foundation has broken down the resources needed
+                    for empowerment into the following categories: <br />
+                    • Training: vocational training and skills development{" "}
+                    <br />
                     • Financial assistance & grants <br />
                     • Networking and mentoring opportunities <br />
                   </p>
-                  <p>
-                    In Nigeria, the United Nations posits thatwomen and girls
-                    make up more than half of population but still do not have
-                    sufficient access nor opportunities to realise their full
-                    potential as agents of change who can provide solutions to
-                    most of the country’s most pressing issues. In a bid to
-                    address the empowerment for the poor resource and
-                    underprivileged girls and young women,AGNES ABIONA
-                    FOUNDATION has broken down resource needed for the
-                    empowerment into categories.
-                  </p>
+
                   <button className="btn btn-warning">Contact Us</button>
                 </div>
               </div>
@@ -92,19 +83,16 @@ const About = () => {
             <div className="row mt-5">
               <div className="col-md-6">
                 <p className="black">
-                  These include human capital; education, training, vocational
-                  skills, financial capital; grants and financial assistance,
-                  social capital; networking and mentoring and physical capital;
-                  tools and machine. AAF will use available resources within the
-                  foundation to empower women as a strategy that will focus on
-                  redirecting and reengineering the economic status of the women
-                  with a view of tackling poverty, violence and unemployment.
-                  For effectiveness of the program AAF put certain indicators
-                  and methods in place to target the needs of different
-                  beneficiaries such as educational supports, vocational skill
-                  acquisitions/training, capacity building, provision of grants,
-                  supply of empowerment materials and start up support for women
-                  & girls.
+                  AAF uses available resources within the foundation to empower
+                  women as a strategy that will focus on redirecting and
+                  reengineering the economic status of the women with a view to
+                  tackling poverty, violence, and unemployment. For the
+                  effectiveness of the program, AAF puts certain indicators and
+                  methods in place to target the needs of different
+                  beneficiaries such as educational support, vocational skill
+                  acquisition/training, capacity building, provision of grants,
+                  supply of empowerment materials, and start-up support for
+                  women & girls.
                 </p>
               </div>
               <div className="col-md-6">

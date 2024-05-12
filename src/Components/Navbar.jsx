@@ -7,15 +7,15 @@ const Navbar = () => {
   const gotoAbout = () => {
     navigate("/about");
   };
-  // const gotoGallery = () => {
-  //   navigate("/gallery");
-  // };
   const gotoContact = () => {
     navigate("/contact");
   };
   const gotoVolunteer = () => {
     navigate("/volunteer");
   };
+  // const gotoGallery = () => {
+  //   navigate("/gallery");
+  // };
   const gotoHome = () => {
     navigate("/");
   };
@@ -49,7 +49,7 @@ const Navbar = () => {
             <span onClick={gotoAbout} className="nav-link cursor">
               Who we are
             </span>
-          
+            
             <span onClick={gotoContact} className="nav-link cursor">
               Contact
             </span>

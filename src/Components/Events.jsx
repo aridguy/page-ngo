@@ -28,8 +28,7 @@ const Events = () => {
               <Carousel
                 axis="horizontal"
                 infiniteLoop={true}
-                // useKeyboardArrow={true}
-                // thumbWidth={140}
+                
                 transitionTime={500}
                 width={"100"}
               >

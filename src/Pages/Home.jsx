@@ -13,10 +13,16 @@ import Trainings from "../Assets/About/vocational.png";
 import Mentoring from "../Assets/About/help.png";
 import Education from "../Assets/About/educations.png";
 import Wedo from "../Assets/gallery/gallery/wedo.jpeg";
+import { useNavigate } from "react-router-dom";
+// import HomeSlider from "../HomeSlider";
 
 // import Gallery from "./Gallery";
 
 const Home = () => {
+  const navigate = useNavigate();
+  const handleGoToContact = () => {
+    navigate("/contact");
+  };
   return (
     <div>
       <Navbar />
@@ -25,17 +31,17 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="">
-                <h2 className="text-white ">
+                <h1 className="text-white fw-bolder">
                   AGNES ABIONA{" "}
                   <strong className="fw-bolder golden">FOUNDATION</strong>
-                </h2>
+                </h1>
                 <span className="text-white">
                   There is one relation above all Relation of Humanity
                 </span>{" "}
                 <br />
-                <button className="mt-5 text-uppercase btn btn-purple text-white btn-lg  waves-effect">
-                  <span className="text-danger fas fa-heart purple"></span> &nbsp;
-                  Donate
+                <button onClick={handleGoToContact} className="mt-5 bg-golden text-uppercase btn text-white btn-lg ">
+                  <span className="text-danger fas fa-heart purple"></span>{" "}
+                  &nbsp; Donate
                 </button>
               </div>
             </div>
@@ -266,8 +272,6 @@ const Home = () => {
           </section>
         </div>
       }
-
-     
 
       {
         <div>
