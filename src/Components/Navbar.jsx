@@ -13,9 +13,7 @@ const Navbar = () => {
   const gotoVolunteer = () => {
     navigate("/volunteer");
   };
-  // const gotoGallery = () => {
-  //   navigate("/gallery");
-  // };
+  
   const gotoHome = () => {
     navigate("/");
   };
@@ -56,7 +54,7 @@ const Navbar = () => {
             <span onClick={gotoVolunteer} className="nav-link cursor">
               Volunteer
             </span>
-            <span onClick={gotoVolunteer} className="nav-link cursor">
+            <span onClick={gotoContact} className="nav-link cursor">
               Support us
             </span>
           </div>

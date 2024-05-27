@@ -13,7 +13,8 @@ const Volunteer = () => {
             <div className="row">
               <div className="">
                 <h2 className="text-white ">
-                  BECOME A <strong className="fw-bolder golden">VOLUNTEER</strong>
+                  BECOME A{" "}
+                  <strong className="fw-bolder golden">VOLUNTEER</strong>
                 </h2>
                 <span className="text-white">
                   We need some informations for us to verify you as a volunteer
@@ -115,7 +116,7 @@ const Volunteer = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="col-md-6">
                 <div className="mt-2 mb-3">
                   <input

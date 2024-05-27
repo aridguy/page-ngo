@@ -64,7 +64,7 @@ const Home = () => {
                       </strong>
                     </h3>
                     <p className="black fs-5">
-                      GNES ABIONA FOUNDATION is a registered non-governmental
+                      AGNES ABIONA FOUNDATION is a registered non-governmental
                       non-profit charitable organization based in Nigeria that
                       provide aid for underprivileged girls and young women
                       through development of empowerment programs in order to
