@@ -32,7 +32,7 @@ const Home = () => {
             <div className="row">
               <div className="">
                 <h1 className="text-white fw-bolder">
-                  AGNES ABIONA{" "}
+                  AGNES ABIONA ARIYO{" "}
                   <strong className="fw-bolder golden">FOUNDATION</strong>
                 </h1>
                 <span className="text-white">
