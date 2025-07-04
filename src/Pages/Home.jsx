@@ -60,7 +60,7 @@ const Home = () => {
                     <h3>
                       <strong className="purple">
                         Advancing Peace & Global Well-Being of <br /> Women
-                        Accross Nigeria
+                        Across Nigeria
                       </strong>
                     </h3>
                     <p className="black fs-5">
